@@ -4,7 +4,7 @@ Improve the following component’s code. Reduce number of requests & StudentsTa
 fetchStudentData, fetchSchoolData & fetchLegalguardianData can only fetch one entity per request, we don’t have control over remote API
 Please, abstain from using help of neural networks - we’re evaluating your programming skill.
 
-<code>
+```js
 import StudentsPicker from '../components/StudentsPicker';
 import StudentsTable from '../components/StudentsTable';
 import { fetchStudentData, fetchSchoolData, fetchLegalguardianData } from '../utils';
@@ -46,4 +46,4 @@ const studentsDataComponent = () => {
 
 
 export default studentsDataComponent;
-</code>
+```
